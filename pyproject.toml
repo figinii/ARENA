@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "circuitsvis>=1.43.3",
+    "dotenv>=0.9.9",
     "eindex-callum",
     "einops>=0.8.2",
     "ipykernel>=7.2.0",
@@ -15,8 +16,12 @@ dependencies = [
     "matplotlib>=3.10.8",
     "nbformat>=5.10.4",
     "numpy>=2.4.4",
+    "openai>=2.31.0",
     "plotly>=6.6.0",
     "rich>=14.3.3",
+    "sae-lens>=6.39.0",
+    "sae-vis>=0.2.15",
+    "tabulate>=0.10.0",
     "tqdm>=4.67.3",
     "transformer-lens>=2.18.0",
 ]
